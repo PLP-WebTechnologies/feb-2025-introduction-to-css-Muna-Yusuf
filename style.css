@@ -1,0 +1,90 @@
+/* Link this CSS file to your HTML document */
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Style a navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background: #444;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Style an image */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    border: 5px solid #555;
+    border-radius: 10px;
+}
+
+/* Style sections */
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply different typography */
+h2 {
+    color: #333;
+    font-family: 'Georgia', serif;
+}
+
+/* Add margin, padding, and border to the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #555;
+    color: white;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
